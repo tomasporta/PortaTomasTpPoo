@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Practico._01Consola</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Practico01.Entidades\Practico01.Entidades.csproj" />
+    <ProjectReference Include="..\Practico01.Utilidades\Practico01.Utilidades.csproj" />
+  </ItemGroup>
+
+</Project>
